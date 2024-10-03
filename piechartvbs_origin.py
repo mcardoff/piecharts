@@ -47,40 +47,96 @@ filtering = True
 # labels.append(["PhotonConv", "BottomMeson", "BottomBaryon"])
 
 # charged higgs
-region_names.append("Electrons (Charged Higgs)")
+# region_names.append("Electrons (Charged Higgs)")
+# pie_contents.append([1.78982e-05, 0.00298484, 97.2497, 0.410656, 0.0769651, 0.00535025, 0.0420895, 1.66519, 0.21954, 0.327544])
+# labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("Muons (Charged Higgs)")
+# pie_contents.append([1.09792, 8.94487, 5.69732, 2.34909, 50.8905, 18.0308, 12.8541, 0.104786, 0.00475399, 0.025889])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+#iff from charged higgs
+region_names.append("iff el no filtering")
 pie_contents.append([1.78982e-05, 0.00298484, 97.2497, 0.410656, 0.0769651, 0.00535025, 0.0420895, 1.66519, 0.21954, 0.327544])
 labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
 
-region_names.append("Muons (Charged Higgs)")
+region_names.append("iff mu no filtering")
 pie_contents.append([1.09792, 8.94487, 5.69732, 2.34909, 50.8905, 18.0308, 12.8541, 0.104786, 0.00475399, 0.025889])
 labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff el no prompt el")
+# pie_contents.append([0.000650763, 0.108526, 14.9311, 2.79839, 0.194531, 1.53034, 60.545, 7.98228, 11.9092])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff mu no prompt el")
+# pie_contents.append([1.09792, 8.94487, 5.69732, 2.34909, 50.8905, 18.0308, 12.8541, 0.104786, 0.00475399, 0.025889])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff el no prompt mu")
+# pie_contents.append([1.78982e-05, 0.00298484, 97.2497, 0.410656, 0.0769651, 0.00535025, 0.0420895, 1.66519, 0.21954, 0.327544])
+# labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff mu no prompt mu")
+# pie_contents.append([1.16426, 9.48527, 2.49101, 53.9651, 19.1201, 13.6306, 0.111116, 0.00504121, 0.027453])
+# labels.append(["Unknown", "KnownUnknown", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+region_names.append("iff el no prompt lep")
+pie_contents.append([0.000650763, 0.108526, 14.9311, 2.79839, 0.194531, 1.53034, 60.545, 7.98228, 11.9092])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+region_names.append("iff mu no prompt lep")
+pie_contents.append([1.16426, 9.48527, 2.49101, 53.9651, 19.1201, 13.6306, 0.111116, 0.00504121, 0.027453])
+labels.append(["Unknown", "KnownUnknown", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff lep no prompt el")
+# pie_contents.append([0.354499, 2.95807, 10.1161, 1.83727, 1.89596, 0.131798, 1.79437, 57.4316, 11.2227, 12.2139, 0.0337912, 0.00153307, 0.00834867])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptMuon", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff lep no prompt mu")
+# pie_contents.append([0.0142151, 0.118616, 96.0638, 0.405648, 0.0760266, 0.00528501, 0.0719528, 2.30296, 0.450022, 0.489768, 0.001355, 6.14747e-05, 0.000334775])
+# labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+region_names.append("iff lep no prompt lep")
+pie_contents.append([0.361134, 3.01343, 10.3055, 1.93145, 0.134265, 1.82796, 58.5065, 11.4328, 12.4425, 0.0344237, 0.00156176, 0.00850493])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
 
 for (region, content, label) in zip(region_names, pie_contents, labels):
     pie_dict = {}
     for (a,b) in zip(content, label):
         pie_dict[b] = a
-
-    sorted_pie_dict = {k: v for k, v in sorted(pie_dict.items(), key=lambda item: item[1])}
-    short_dict = {"Heavy Flavor": 0.0, "Other": 0.0, "Leptonic + PC": 0.0}
-
+        
+    short_dict = {"Heavy Flavor": 0.0, "Other": 0.0, "Prompt": 0.0, "Misc Lep": 0.0}
+    # print(region)
     if filtering:
-        for k, v in zip(sorted_pie_dict.keys(), sorted_pie_dict.values()):
+        for k, v in zip(pie_dict.keys(), pie_dict.values()):
             if ("Meson" in k or "Baryon" in k or "Hadron" in k):
                 short_dict["Heavy Flavor"] += v
-                print(f"{k} in HF")
+                # print(f"{k} in HF")
             elif "Unknown" in k or "Light" in k:
                 short_dict["Other"] += v
-                print(f"{k} in Other")
-            elif "Electron" in k or "Muon" in k or "Tau" in k:
-                short_dict["Leptonic + PC"] += v
-                print(f"{k} in Leptonic")
+                # print(f"{k} in Other")
+            elif "Iso" in k or "PromptMuon" in k:
+                short_dict["Prompt"] += v
+                # print(f"{k} in Prompt")
+            elif "NonMuonLike" in k or "TauDecay" in k or "ElectronFromMuon" in k:
+                short_dict["Misc Lep"] += v
+                # print(f"{k} in Misc Lep")
+            # elif v < 1.0:
+            #     short_dict["Other"] += v
             else:
                 short_dict[k] = v
-                print(f"{k} added manually")
+                # print(f"{k} added manually")
     else:
-        short_dict = sorted_pie_dict
+        short_dict = pie_dict
 
+    sorted_pie_dict = {k: v for k, v in sorted(short_dict.items(), key=lambda item: item[1])}
+
+    for item in list(sorted_pie_dict):
+        if abs(sorted_pie_dict[item]) < 1.0e-6:
+            del sorted_pie_dict[item]
+
+    fname = f"nonpromptorigin_{region.replace(' ', '_')}.png"
     plt.title(f"Truth Origins for Non-Prompt Background, Region: {region}")
-    plt.pie(short_dict.values(), labels=short_dict.keys(), autopct='%1.1f%%')
-    plt.savefig(f"nonpromptorigin_{region}.png")
+    plt.pie(sorted_pie_dict.values(), labels=sorted_pie_dict.keys(), autopct='%1.1f%%')
+    plt.savefig(fname)
     plt.show()
