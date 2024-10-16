@@ -1,0 +1,295 @@
+# # ttbar - inclusive
+# region_names.append("SR_ee (inclusive)")
+# pie_contents.append([1.2494, 94.6162, 0.102598, 0.348517, 3.57871, 0.10454])
+# labels.append(["NonDefined", "PhotonConv", "DalitzDec", "ElMagProc", "BottomMeson", "CCbarMeson"])
+
+# region_names.append("SR_em (inclusive)")
+# pie_contents.append([1.65003, 89.8253, 0.403919, 0.386493, 0.592743, 6.82993, 0.31161])
+# labels.append(["NonDefined", "PhotonConv", "ElMagProc", "LightMeson", "CharmedMeson", "BottomMeson", "CCbarMeson"])
+
+# region_names.append("SR_mm (inclusive)")
+# pie_contents.append([23.536, 11.6183, 62.1779, 2.66785])
+# labels.append(["PhotonConv", "CharmedMeson", "BottomMeson", "BottomBaryon"])
+
+# # ttbar - nonallhad
+# region_names.append("SR_ee (nonallhad)")
+# pie_contents.append([1.40897, 91.4717, 0.672524, 6.44681])
+# labels.append(["NonDefined", "PhotonConv", "ElMagProc", "BottomMeson"])
+
+# region_names.append("SR_em (nonallhad)")
+# pie_contents.append([2.2745, 84.741, 0.552893, 0.52645, 0.715245, 10.6421, 0.547884])
+# labels.append(["NonDefined", "PhotonConv", "ElMagProc", "LightMeson", "CharmedMeson", "BottomMeson", "CCbarMeson"])
+
+# region_names.append("SR_mm (nonallhad)")
+# pie_contents.append([15.8294, 15.3516, 68.819])
+# labels.append(["PhotonConv", "CharmedMeson", "BottomMeson"])
+
+# # ttbar - dilep
+# region_names.append("SR_ee (dilep)")
+# pie_contents.append([1.07775, 97.9987, 0.212958, 0.493649, 0.216988])
+# labels.append(["NonDefined", "PhotonConv", "DalitzDec", "BottomMeson", "CCbarMeson"])
+
+# region_names.append("SR_em (dilep)")
+# pie_contents.append([0.826447, 96.5307, 0.207445, 0.201912, 0.431182, 1.80232])
+# labels.append(["NonDefined", "PhotonConv", "ElMagProc", "LightMeson", "CharmedMeson", "BottomMeson"])
+
+# region_names.append("SR_mm (dilep)")
+# pie_contents.append([47.5189, 41.5109, 10.9703])
+# labels.append(["PhotonConv", "BottomMeson", "BottomBaryon"])
+
+# charged higgs
+# region_names.append("Electrons (Charged Higgs)")
+# pie_contents.append([1.78982e-05, 0.00298484, 97.2497, 0.410656, 0.0769651, 0.00535025, 0.0420895, 1.66519, 0.21954, 0.327544])
+# labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("Muons (Charged Higgs)")
+# pie_contents.append([1.09792, 8.94487, 5.69732, 2.34909, 50.8905, 18.0308, 12.8541, 0.104786, 0.00475399, 0.025889])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+#iff from charged higgs
+# region_names.append("iff el no filtering")
+# pie_contents.append([1.78982e-05, 0.00298484, 97.2497, 0.410656, 0.0769651, 0.00535025, 0.0420895, 1.66519, 0.21954, 0.327544])
+# labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff mu no filtering")
+# pie_contents.append([1.09792, 8.94487, 5.69732, 2.34909, 50.8905, 18.0308, 12.8541, 0.104786, 0.00475399, 0.025889])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff el no prompt el")
+# pie_contents.append([0.000650763, 0.108526, 14.9311, 2.79839, 0.194531, 1.53034, 60.545, 7.98228, 11.9092])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff mu no prompt el")
+# pie_contents.append([1.09792, 8.94487, 5.69732, 2.34909, 50.8905, 18.0308, 12.8541, 0.104786, 0.00475399, 0.025889])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff el no prompt mu")
+# pie_contents.append([1.78982e-05, 0.00298484, 97.2497, 0.410656, 0.0769651, 0.00535025, 0.0420895, 1.66519, 0.21954, 0.327544])
+# labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff mu no prompt mu")
+# pie_contents.append([1.16426, 9.48527, 2.49101, 53.9651, 19.1201, 13.6306, 0.111116, 0.00504121, 0.027453])
+# labels.append(["Unknown", "KnownUnknown", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff el no prompt lep")
+# pie_contents.append([0.000650763, 0.108526, 14.9311, 2.79839, 0.194531, 1.53034, 60.545, 7.98228, 11.9092])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff mu no prompt lep")
+# pie_contents.append([1.16426, 9.48527, 2.49101, 53.9651, 19.1201, 13.6306, 0.111116, 0.00504121, 0.027453])
+# labels.append(["Unknown", "KnownUnknown", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff lep no prompt el")
+# pie_contents.append([0.354499, 2.95807, 10.1161, 1.83727, 1.89596, 0.131798, 1.79437, 57.4316, 11.2227, 12.2139, 0.0337912, 0.00153307, 0.00834867])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptMuon", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff lep no prompt mu")
+# pie_contents.append([0.0142151, 0.118616, 96.0638, 0.405648, 0.0760266, 0.00528501, 0.0719528, 2.30296, 0.450022, 0.489768, 0.001355, 6.14747e-05, 0.000334775])
+# labels.append(["Unknown", "KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# region_names.append("iff lep no prompt lep")
+# pie_contents.append([0.361134, 3.01343, 10.3055, 1.93145, 0.134265, 1.82796, 58.5065, 11.4328, 12.4425, 0.0344237, 0.00156176, 0.00850493])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "TauDecayLike", "BHadronDecayLike"])
+
+# #bleh
+# region_names.append("iff nonprompt, no filter")
+# pie_contents.append([1.11525, 0.254792, 6.18923, 4.83315, 0.0640422, 0.836422, 77.2977, 4.63588, 4.77358])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff nonprompt, el el")
+# pie_contents.append([0.45065, 0.151907, 7.35982, 6.13369, 0.693049, 78.9637, 3.85235, 2.39482])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# our iff ntuples
+# region_names.append("el_IFFClass_SR")
+# pie_contents.append([3.81229, 8.85233, 2.79846, 4.89015, 1.40166, 3.1711, 0.920617, 74.1534])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR")
+# pie_contents.append([3.12573, 39.4461, 26.1828, 1.8102, 12.9278, 11.991, 2.94265, 1.57372])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("iff_no_prompt_SR")
+# pie_contents.append([0.65213, 11.7682, 2.59741, 4.53883, 1.30096, 0.377666, 5.64043, 3.35619, 69.4399, 0.328329])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_SR_ee")
+# pie_contents.append([3.48072, 13.8207, 2.37878, 4.79959, 1.04285, 3.03725, 0.782927, 70.6572])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR_ee")
+# pie_contents.append([55.222, 8.12415, 4.22678, 12.6888, 4.22678, 8.40144, 7.11006])
+# labels.append(["KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("iff_no_prompt_SR_ee")
+# pie_contents.append([9.26999, 2.50273, 5.04968, 1.09718, 0.429238, 4.48409, 1.25296, 75.1921, 0.72204])
+# labels.append(["KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_SR_mm")
+# pie_contents.append([3.56958, 4.23124, 92.1992])
+# labels.append(["ElectronFromMuon", "BHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR_mm")
+# pie_contents.append([6.99083, 16.5749, 30.6081, 22.2604, 16.5749, 6.99083])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff_no_prompt_SR_mm")
+# pie_contents.append([2.62145, 6.21533, 2.64074, 11.4775, 6.21533, 70.8296])
+# labels.append(["Unknown", "KnownUnknown", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("el_IFFClass_SR_em")
+# pie_contents.append([3.7854, 3.57423, 3.46458, 4.01062, 3.07716, 5.66524, 1.32952, 75.0933])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR_em")
+# pie_contents.append([2.00572, 32.2853, 34.5672, 1.79515, 9.5092, 17.7746, 2.06278])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff_no_prompt_SR_em")
+# pie_contents.append([0.531347, 11.7981, 2.97018, 3.43831, 2.63805, 0.475564, 7.37596, 5.84858, 64.9239])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("el_IFFClass_CR_bb_mumuTL")
+# pie_contents.append([10.3019, 0.93041, 4.41708, 1.51629, 2.61526, 80.219])
+# labels.append(["KnownUnknown", "IsoElectron", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_bb_mumuTL")
+# pie_contents.append([8.36815, 19.3858, 32.5893, 2.2401, 25.8202, 9.14339, 1.88349, 0.569586])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("iff_no_prompt_CR_bb_mumuTL")
+# pie_contents.append([3.40542, 15.4351, 3.23545, 0.91161, 11.6182, 5.63655, 59.5259, 0.231793])
+# labels.append(["Unknown", "KnownUnknown", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_CR_bb_muelTL")
+# pie_contents.append([6.9719, 3.55441, 3.37395, 2.61381, 1.15539, 0.488721, 5.0346, 1.7059, 75.1013])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_bb_muelTL")
+# pie_contents.append([1.20567, 27.3668, 48.1038, 1.07007, 11.9819, 7.66396, 2.33151, 0.276354])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("iff_no_prompt_CR_bb_muelTL")
+# pie_contents.append([0.305748, 13.2175, 3.0379, 2.35347, 1.04031, 0.711406, 7.57167, 3.47951, 68.2124, 0.0700813])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_CR_1b_mumuTL")
+# pie_contents.append([11.718, 0.360376, 0.280642, 3.75719, 0.0852169, 1.27822, 1.27748, 81.2429])
+# labels.append(["KnownUnknown", "IsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_1b_mumuTL")
+# pie_contents.append([1.2209, 22.4689, 33.5089, 0.391655, 33.4422, 7.21613, 1.75127])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("iff_no_prompt_CR_1b_mumuTL")
+# pie_contents.append([0.449954, 17.1593, 0.212638, 2.84676, 0.208909, 13.2934, 3.62737, 62.2017])
+# labels.append(["Unknown", "KnownUnknown", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("el_IFFClass_CR_1b_muelTL")
+# pie_contents.append([8.50726, 2.09531, 1.69042, 2.51996, 1.50445, 0.202352, 8.03517, 1.36253, 74.0825])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_1b_muelTL")
+# pie_contents.append([0.838977, 31.9725, 47.3617, 0.516245, 8.31687, 8.56194, 1.31874, 1.11296])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+# p
+# region_names.append("iff_no_prompt_CR_1b_muelTL")
+# pie_contents.append([0.202053, 15.2878, 1.50772, 2.2476, 1.34184, 0.30481, 9.16969, 3.27727, 66.3932, 0.268037])
+# labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+
+# region_names.append("el_IFFClass_SR")
+# pie_contents.append([8.21057, 9.13142, 5.18895, 3.53161, 1.48064, 0.0292681, 3.38307, 1.10876, 67.9357])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR")
+# pie_contents.append([3.14696, 31.7546, 32.7063, 0.738191, 18.9243, 9.45922, 2.42867, 0.841822])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+region_names.append("iff_no_prompt_SR")
+pie_contents.append([0.723934, 14.9418, 4.8264, 3.28485, 1.37719, 0.197038, 7.50008, 3.20731, 63.7477, 0.193655])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_SR_ee")
+# pie_contents.append([5.78555, 15.5636, 4.67044, 4.1243, 0.353716, 4.04568, 1.39876, 64.0579])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR_ee")
+# pie_contents.append([52.8745, 3.8596, 3.55981, 23.015, 11.8643, 1.23106, 3.59567])
+# labels.append(["KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+region_names.append("iff_no_prompt_SR_ee")
+pie_contents.append([12.3541, 4.89919, 4.3263, 0.37104, 0.42315, 6.97961, 2.87757, 67.3417, 0.427413])
+labels.append(["KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_SR_mm")
+# pie_contents.append([7.65996, 4.51086, 1.40176, 2.68384, 83.7436])
+# labels.append(["KnownUnknown", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR_mm")
+# pie_contents.append([7.98687, 17.9929, 33.5189, 26.0891, 9.84473, 4.56752])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+region_names.append("iff_no_prompt_SR_mm")
+pie_contents.append([3.27571, 12.9509, 3.28091, 11.7197, 5.98974, 62.7831])
+labels.append(["Unknown", "KnownUnknown", "ElectronFromMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("el_IFFClass_SR_em")
+# pie_contents.append([9.89496, 5.62204, 5.67086, 3.08256, 1.51715, 0.121832, 3.32432, 1.38264, 69.3836])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_SR_em")
+# pie_contents.append([2.87191, 26.567, 43.3203, 14.4577, 9.48026, 2.44658, 0.856197])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+region_names.append("iff_no_prompt_SR_em")
+pie_contents.append([0.76886, 16.0059, 5.09691, 2.77057, 1.3636, 0.109501, 6.85842, 3.78074, 63.0162, 0.229219])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_CR_bb_mumuTL")
+# pie_contents.append([13.7987, 1.09461, 0.288039, 0.261346, 4.772, 0.0817445, 2.20471, 2.06837, 75.4304])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_bb_mumuTL")
+# pie_contents.append([4.25741, 20.1112, 33.863, 1.44494, 29.8075, 8.84911, 1.51784, 0.148981])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+region_names.append("iff_no_prompt_CR_bb_mumuTL")
+pie_contents.append([1.87539, 18.7459, 0.206383, 0.187257, 3.41918, 0.695066, 14.7099, 5.38004, 54.7153, 0.065626])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_CR_bb_muelTL")
+# pie_contents.append([9.88836, 3.45844, 4.77448, 2.5187, 1.42772, 0.245684, 5.33016, 1.68439, 70.6721])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_bb_muelTL")
+# pie_contents.append([0.919428, 27.0139, 50.2564, 0.60594, 11.4485, 7.64063, 1.49001, 0.625209])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+region_names.append("iff_no_prompt_CR_bb_muelTL")
+pie_contents.append([0.244018, 16.0599, 4.29261, 2.2645, 1.28362, 0.381706, 7.83065, 3.54223, 63.9348, 0.165932])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+# region_names.append("el_IFFClass_CR_1b_mumuTL")
+# pie_contents.append([11.9047, 0.640435, 0.0294637, 0.122097, 4.3866, 0.0833139, 1.38719, 1.47936, 79.9668])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_1b_mumuTL")
+# pie_contents.append([1.00076, 20.1745, 35.445, 0.746953, 35.1245, 5.76125, 1.66496, 0.0549221, 0.0271618])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "BHadronDecayLike"])
+
+region_names.append("iff_no_prompt_CR_1b_mumuTL")
+pie_contents.append([0.399984, 16.9535, 0.0220025, 0.0911783, 3.27577, 0.36076, 15.0746, 3.40741, 60.3821, 0.0219514, 0.0108561])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike", "BHadronDecayLike"])
+
+# region_names.append("el_IFFClass_CR_1b_muelTL")
+# pie_contents.append([9.14872, 3.0847, 2.02607, 1.97693, 1.33869, 0.103656, 9.22666, 1.2062, 71.8884])
+# labels.append(["KnownUnknown", "IsoElectron", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay"])
+
+# region_names.append("mu_IFFClass_CR_1b_muelTL")
+# pie_contents.append([0.700499, 29.5253, 48.2077, 0.530842, 10.8171, 7.5164, 2.13401, 0.56817])
+# labels.append(["Unknown", "KnownUnknown", "PromptMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
+
+region_names.append("iff_no_prompt_CR_1b_muelTL")
+pie_contents.append([0.182505, 15.8585, 1.80846, 1.7646, 1.19491, 0.230827, 11.0539, 3.03495, 64.7233, 0.148029])
+labels.append(["Unknown", "KnownUnknown", "ChargeFlipIsoElectron", "PromptPhotonConversion", "ElectronFromMuon", "TauDecay", "BHadronDecay", "CHadronDecay", "LightFlavorDecay", "NonMuonlike"])
