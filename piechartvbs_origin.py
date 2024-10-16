@@ -85,3 +85,5 @@ for (region, content, label) in zip(region_names, pie_contents, labels):
     plt.pie(sorted_pie_dict.values(), labels=sorted_pie_dict.keys(), autopct='%1.1f%%')
     plt.savefig(fname)
     plt.show()
+
+print("test 1")
